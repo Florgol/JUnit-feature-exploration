@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="de"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>FibonacciCalculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ESA10 - Testing</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">FibonacciCalculator.java</span></div><h1>FibonacciCalculator.java</h1><pre class="source lang-java linenums"><span class="fc" id="L1">public class FibonacciCalculator {</span>
+
+    public int calculateFibonacci(int n) {
+<span class="fc bfc" id="L4" title="All 2 branches covered.">        if (n &lt;= 1) {</span>
+<span class="fc" id="L5">            return n;</span>
+        }
+<span class="fc" id="L7">        int a = 0, b = 1, c = 0;</span>
+<span class="fc bfc" id="L8" title="All 2 branches covered.">        for (int i = 2; i &lt;= n; i++) {</span>
+<span class="fc" id="L9">            c = a + b;</span>
+<span class="fc" id="L10">            a = b;</span>
+<span class="fc" id="L11">            b = c;</span>
+        }
+<span class="fc" id="L13">        return b;</span>
+    }
+
+    public boolean isInFibonacci(int n) {
+<span class="pc bpc" id="L17" title="2 of 4 branches missed.">        if (n == 0 || n == 1) {</span>
+<span class="nc" id="L18">            return true;</span>
+        }
+<span class="fc" id="L20">        int a = 0, b = 1, c = 0;</span>
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        while (b &lt; n) {</span>
+<span class="fc" id="L22">            c = a + b;</span>
+<span class="fc" id="L23">            a = b;</span>
+<span class="fc" id="L24">            b = c;</span>
+        }
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        return b == n;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

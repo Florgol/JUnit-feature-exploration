@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FibonacciCalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-06-27T18:49:57" hostname="DESKTOP-8569UFE" time="0.023">
+  <properties/>
+  <testcase name="testFibonacci()" classname="FibonacciCalculatorTest" time="0.019"/>
+  <testcase name="testIsInFibonacci()" classname="FibonacciCalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
