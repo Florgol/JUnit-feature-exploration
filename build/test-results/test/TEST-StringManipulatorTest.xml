@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StringManipulatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-06-27T18:49:57" hostname="DESKTOP-8569UFE" time="0.008">
+<testsuite name="StringManipulatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-06-27T19:00:33" hostname="DESKTOP-8569UFE" time="0.008">
   <properties/>
-  <testcase name="testToLowerCase()" classname="StringManipulatorTest" time="0.0"/>
+  <testcase name="testToLowerCase()" classname="StringManipulatorTest" time="0.001"/>
   <testcase name="testCountOccurrences()" classname="StringManipulatorTest" time="0.001"/>
   <testcase name="testToUpperCase()" classname="StringManipulatorTest" time="0.0"/>
   <testcase name="testRemoveWhitespaces()" classname="StringManipulatorTest" time="0.0"/>
   <testcase name="testIsPalindrome()" classname="StringManipulatorTest" time="0.0"/>
-  <testcase name="testReverse()" classname="StringManipulatorTest" time="0.0"/>
-  <testcase name="testCountOccurrencesThrowsExceptionOnNullInput()" classname="StringManipulatorTest" time="0.001"/>
+  <testcase name="testReverse()" classname="StringManipulatorTest" time="0.001"/>
+  <testcase name="testCountOccurrencesThrowsExceptionOnNullInput()" classname="StringManipulatorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
