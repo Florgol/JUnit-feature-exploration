@@ -1,2 +1,2 @@
 
-As part of my studies at the BHT Berlin I am exploring JUnit-testing.
+As part of my studies at the BHT Berlin I am exploring the features of JUnit and Mockito.
