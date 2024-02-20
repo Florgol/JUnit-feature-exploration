@@ -1,2 +1,2 @@
-# JUnitFeatureExploration
-I am exploring the features of JUnit (and of Mockito) as part of my studies at the BHT Berlin.
+# JUnit Feature Exploration
+This is an exploration of the features of JUnit (and Mockito) as part of my studies at the BHT Berlin.
